@@ -33,25 +33,40 @@ Foram utilizados dados clínicos de 317 pacientes com câncer de mama, incluindo
 - As duas maiores isoformas da proteína apresentaram 100% de identidade.  
 - Mutações simuladas foram aplicadas nos domínios funcionais e podem afetar sua função.
 
+
 ## 📈 Visualizações
 
 ### Gráfico 1 – Boxplot dos comprimentos de DNA, RNA e proteína do gene BRCA1 (Python/Seaborn)
 Mostra os tamanhos das sequências do gene BRCA1, destacando a diferença entre DNA (~125.000 pb), RNA (~10.000 pb) e proteína (~1.900 aa).
 
+![Boxplot Tamanhos BRCA1](images/01_boxplot_tamanhos_brca1.png)
+
 ### Gráfico 2 – Histograma com KDE dos tamanhos das isoformas da proteína BRCA1 (Python/Matplotlib)
 Ilustra a distribuição do comprimento das isoformas de BRCA1, evidenciando a predominância de duas isoformas principais.
+
+![Histograma Isoformas BRCA1](images/02_histograma_isoformas_brca1.png)
 
 ### Gráfico 3 – Stripplot da expressão da Protein1 por estágio tumoral (Python/Seaborn)
 Apresenta variação da expressão da BRCA1 por estágio do câncer, com tendência decrescente em estágios mais avançados.
 
+![Stripplot Estágio Tumoral](images/03_stripplot_estagio_tumoral.png)
+
 ### Gráfico 4 – Stripplot da expressão da Protein1 por status vital (Python/Seaborn)
 Compara a expressão da BRCA1 entre pacientes vivos e falecidos, sugerindo relação com prognóstico.
+
+![Box Swarm Status Vital](images/04_box_swarm_status_vital.png)
 
 ### Gráfico 5 – Mapa funcional dos domínios da proteína BRCA1 (RING, NLS, BRCT)
 Imagem ilustrativa destacando os domínios estruturais da BRCA1 e regiões-alvo de mutações simuladas.
 
+![Mapa Funcional BRCA1](images/05_mapa_funcional_brca1.png)
+
 ### Gráfico 6 – Heatmap com clusterização hierárquica da expressão das proteínas Protein1–Protein4 (Python/Seaborn Clustermap)
 Agrupa pacientes com base em padrões de expressão, sugerindo subgrupos biológicos distintos.
+
+![Clustermap Proteínas](images/06_clustermap_proteinas.png)
+
+
 
 ## 💬 Discussão
 
@@ -78,22 +93,26 @@ brca1_breast_cancer/
 
 A integração entre dados clínicos e moleculares permite uma análise mais completa do comportamento tumoral. Este modelo pode ser expandido para outros genes e doenças com impacto significativo em terapias direcionadas.
 
+
 ## 📊 Resultados da Análise
 
-### Histograma das Isoformas
-![Histograma das Isoformas](images/02_histograma_isoformas_brca1.png)
+### 1️⃣ Boxplot dos Tamanhos das Sequências BRCA1
+![Boxplot Tamanhos BRCA1](images/01_boxplot_tamanhos_brca1.png)
 
-### Stripplot Estágio Tumoral
+### 2️⃣ Histograma das Isoformas BRCA1
+![Histograma Isoformas BRCA1](images/02_histograma_isoformas_brca1.png)
+
+### 3️⃣ Stripplot Estágio Tumoral
 ![Stripplot Estágio Tumoral](images/03_stripplot_estagio_tumoral.png)
 
-### Box Swarm Status Vital
+### 4️⃣ Boxplot + Swarmplot Status Vital
 ![Box Swarm Status Vital](images/04_box_swarm_status_vital.png)
 
-### Clustermap de Proteínas
-![Clustermap de Proteínas](images/06_clustermap_proteinas.png)
-
-### Mapa Funcional
+### 5️⃣ Mapa Funcional do Gene BRCA1
 ![Mapa Funcional BRCA1](images/05_mapa_funcional_brca1.png)
+
+### 6️⃣ Clustermap da Expressão das Proteínas
+![Clustermap Proteínas](images/06_clustermap_proteinas.png)
 
 
 
