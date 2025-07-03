@@ -93,37 +93,6 @@ brca1_breast_cancer/
 
 A integração entre dados clínicos e moleculares permite uma análise mais completa do comportamento tumoral. Este modelo pode ser expandido para outros genes e doenças com impacto significativo em terapias direcionadas.
 
-
-## 📊 Resultados da Análise
-
-### 1️⃣ Boxplot dos Tamanhos das Sequências BRCA1
-![Boxplot Tamanhos BRCA1](images/01_boxplot_tamanhos_brca1.png)
-
-### 2️⃣ Histograma das Isoformas BRCA1
-![Histograma Isoformas BRCA1](images/02_histograma_isoformas_brca1.png)
-
-### 3️⃣ Stripplot Estágio Tumoral
-![Stripplot Estágio Tumoral](images/03_stripplot_estagio_tumoral.png)
-
-### 4️⃣ Boxplot + Swarmplot Status Vital
-![Box Swarm Status Vital](images/04_box_swarm_status_vital.png)
-
-### 5️⃣ Mapa Funcional do Gene BRCA1
-![Mapa Funcional BRCA1](images/05_mapa_funcional_brca1.png)
-
-### 6️⃣ Clustermap da Expressão das Proteínas
-![Clustermap Proteínas](images/06_clustermap_proteinas.png)
-
-
-
-## 🚀 Como Executar Localmente
-
-```bash
-python -m venv venv
-source venv/bin/activate  # ou venv\Scripts\activate no Windows
-pip install -r requirements.txt
-```
-
 ## 📚 Referências
 
 - RefSeq (2020). BRCA1 gene. NCBI.
