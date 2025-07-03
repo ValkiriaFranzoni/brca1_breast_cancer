@@ -78,6 +78,24 @@ brca1_breast_cancer/
 
 A integração entre dados clínicos e moleculares permite uma análise mais completa do comportamento tumoral. Este modelo pode ser expandido para outros genes e doenças com impacto significativo em terapias direcionadas.
 
+## 📊 Resultados da Análise
+
+### Histograma das Isoformas
+![Histograma das Isoformas](images/02_histograma_isoformas_brca1.png)
+
+### Stripplot Estágio Tumoral
+![Stripplot Estágio Tumoral](images/03_stripplot_estagio_tumoral.png)
+
+### Box Swarm Status Vital
+![Box Swarm Status Vital](images/04_box_swarm_status_vital.png)
+
+### Clustermap de Proteínas
+![Clustermap de Proteínas](images/06_clustermap_proteinas.png)
+
+### Mapa Funcional
+![Mapa Funcional BRCA1](images/05_mapa_funcional_brca1.png)
+
+
 
 ## 🚀 Como Executar Localmente
 
