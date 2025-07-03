@@ -1,0 +1,40 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configurações de IDEs
+.vscode/
+.idea/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Dados e arquivos de saída
+data/
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.db
+
+# Imagens exportadas
+*.png
+*.tiff
+*.jpg
+*.svg
+
+# Checkpoints de notebooks
+.ipynb_checkpoints/
