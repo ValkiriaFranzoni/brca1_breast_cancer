@@ -23,7 +23,7 @@ ENV/
 *.tmp
 
 # Dados e arquivos de saída
-data/
+
 *.csv
 *.tsv
 *.xlsx
